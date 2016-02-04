@@ -7,16 +7,40 @@
 //
 
 import UIKit
+import SafariServices
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // set up your background color view
+        let colorView = UIView()
+        colorView.backgroundColor = UIColor.init(red: 201/255, green: 178/255, blue: 198/255, alpha: 1)
+        
+        // use UITableViewCell.appearance() to configure
+        // the default appearance of all UITableViewCells in your app
+        UITableViewCell.appearance().selectedBackgroundView = colorView
+        
+        
+        let launchApp = UIApplicationShortcutItem(type: "viewevents", localizedTitle: "View Events")
+        let launchSFSV = UIApplicationShortcutItem(type: "registernow", localizedTitle: "Register Now")
+        
+        UIApplication.sharedApplication().shortcutItems = [launchApp, launchSFSV]
+        
         return true
+    }
+    
+    func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: Bool -> Void) {
+        //Here you are going to want to use the shortcutItem parameter.
+        print(shortcutItem.type, "... hello 3d touch enabled golden child.")
+        if (shortcutItem.type == "registernow") {
+            let svc = SFSafariViewController(URL: NSURL(string: "https://www.teachersolutions.com.au/events")!)
+            self.window?.rootViewController?.presentViewController(svc, animated: false, completion: nil)
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {

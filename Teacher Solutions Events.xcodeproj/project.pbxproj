@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12287AAD1C62D7E80070919C /* calendar51.png in Resources */ = {isa = PBXBuildFile; fileRef = 12287AAA1C62D7E80070919C /* calendar51.png */; };
+		12287AAE1C62D7E80070919C /* calendar51@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12287AAB1C62D7E80070919C /* calendar51@2x.png */; };
+		12287AAF1C62D7E80070919C /* calendar51@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12287AAC1C62D7E80070919C /* calendar51@3x.png */; };
+		12287AB31C62DA9E0070919C /* paper47.png in Resources */ = {isa = PBXBuildFile; fileRef = 12287AB01C62DA9E0070919C /* paper47.png */; };
+		12287AB41C62DA9E0070919C /* paper47@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12287AB11C62DA9E0070919C /* paper47@2x.png */; };
+		12287AB51C62DA9E0070919C /* paper47@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12287AB21C62DA9E0070919C /* paper47@3x.png */; };
+		12287AB71C62DE230070919C /* detailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12287AB61C62DE230070919C /* detailTableViewController.swift */; };
 		12FA89E41C62C21D009A3624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA89E31C62C21D009A3624 /* AppDelegate.swift */; };
-		12FA89E61C62C21D009A3624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA89E51C62C21D009A3624 /* ViewController.swift */; };
 		12FA89E91C62C21D009A3624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FA89E71C62C21D009A3624 /* Main.storyboard */; };
 		12FA89EB1C62C21D009A3624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FA89EA1C62C21D009A3624 /* Assets.xcassets */; };
 		12FA89EE1C62C21D009A3624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FA89EC1C62C21D009A3624 /* LaunchScreen.storyboard */; };
+		12FA89F91C62C310009A3624 /* eventlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA89F81C62C310009A3624 /* eventlistTableViewController.swift */; };
+		12FB5E271C62EFE5009E3126 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FB5E261C62EFE5009E3126 /* SafariServices.framework */; };
+		12FB5E2B1C630535009E3126 /* star61.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FB5E281C630535009E3126 /* star61.png */; };
+		12FB5E2C1C630535009E3126 /* star61@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FB5E291C630535009E3126 /* star61@2x.png */; };
+		12FB5E2D1C630535009E3126 /* star61@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FB5E2A1C630535009E3126 /* star61@3x.png */; };
+		12FB5E2F1C630A88009E3126 /* datebackdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FB5E2E1C630A88009E3126 /* datebackdrop.png */; };
+		12FB5E351C63182F009E3126 /* backdrop-gpurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FB5E341C63182F009E3126 /* backdrop-gpurple.png */; };
+		12FB5E371C631931009E3126 /* launch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 12FB5E361C631931009E3126 /* launch.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12287AAA1C62D7E80070919C /* calendar51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar51.png; sourceTree = "<group>"; };
+		12287AAB1C62D7E80070919C /* calendar51@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar51@2x.png"; sourceTree = "<group>"; };
+		12287AAC1C62D7E80070919C /* calendar51@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar51@3x.png"; sourceTree = "<group>"; };
+		12287AB01C62DA9E0070919C /* paper47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper47.png; sourceTree = "<group>"; };
+		12287AB11C62DA9E0070919C /* paper47@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper47@2x.png"; sourceTree = "<group>"; };
+		12287AB21C62DA9E0070919C /* paper47@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper47@3x.png"; sourceTree = "<group>"; };
+		12287AB61C62DE230070919C /* detailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailTableViewController.swift; sourceTree = "<group>"; };
 		12FA89E01C62C21D009A3624 /* Teacher Solutions Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teacher Solutions Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FA89E31C62C21D009A3624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12FA89E51C62C21D009A3624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12FA89E81C62C21D009A3624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12FA89EA1C62C21D009A3624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FA89ED1C62C21D009A3624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12FA89EF1C62C21D009A3624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FA89F81C62C310009A3624 /* eventlistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventlistTableViewController.swift; sourceTree = "<group>"; };
+		12FB5E261C62EFE5009E3126 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		12FB5E281C630535009E3126 /* star61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star61.png; sourceTree = "<group>"; };
+		12FB5E291C630535009E3126 /* star61@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star61@2x.png"; sourceTree = "<group>"; };
+		12FB5E2A1C630535009E3126 /* star61@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star61@3x.png"; sourceTree = "<group>"; };
+		12FB5E2E1C630A88009E3126 /* datebackdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datebackdrop.png; sourceTree = "<group>"; };
+		12FB5E341C63182F009E3126 /* backdrop-gpurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backdrop-gpurple.png"; sourceTree = "<group>"; };
+		12FB5E361C631931009E3126 /* launch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = launch.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FB5E271C62EFE5009E3126 /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +67,7 @@
 		12FA89D71C62C21D009A3624 = {
 			isa = PBXGroup;
 			children = (
+				12FB5E261C62EFE5009E3126 /* SafariServices.framework */,
 				12FA89E21C62C21D009A3624 /* Teacher Solutions Events */,
 				12FA89E11C62C21D009A3624 /* Products */,
 			);
@@ -54,14 +84,51 @@
 		12FA89E21C62C21D009A3624 /* Teacher Solutions Events */ = {
 			isa = PBXGroup;
 			children = (
-				12FA89E31C62C21D009A3624 /* AppDelegate.swift */,
-				12FA89E51C62C21D009A3624 /* ViewController.swift */,
-				12FA89E71C62C21D009A3624 /* Main.storyboard */,
-				12FA89EA1C62C21D009A3624 /* Assets.xcassets */,
-				12FA89EC1C62C21D009A3624 /* LaunchScreen.storyboard */,
-				12FA89EF1C62C21D009A3624 /* Info.plist */,
+				12FA89F71C62C2F9009A3624 /* Controllers */,
+				12FA89F51C62C2ED009A3624 /* Storyboards */,
+				12FA89F61C62C2F5009A3624 /* Assets */,
 			);
 			path = "Teacher Solutions Events";
+			sourceTree = "<group>";
+		};
+		12FA89F51C62C2ED009A3624 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				12FA89E71C62C21D009A3624 /* Main.storyboard */,
+				12FA89EC1C62C21D009A3624 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		12FA89F61C62C2F5009A3624 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				12FB5E361C631931009E3126 /* launch.gif */,
+				12FB5E341C63182F009E3126 /* backdrop-gpurple.png */,
+				12FB5E2E1C630A88009E3126 /* datebackdrop.png */,
+				12FB5E281C630535009E3126 /* star61.png */,
+				12FB5E291C630535009E3126 /* star61@2x.png */,
+				12FB5E2A1C630535009E3126 /* star61@3x.png */,
+				12287AAA1C62D7E80070919C /* calendar51.png */,
+				12287AAB1C62D7E80070919C /* calendar51@2x.png */,
+				12287AAC1C62D7E80070919C /* calendar51@3x.png */,
+				12287AB01C62DA9E0070919C /* paper47.png */,
+				12287AB11C62DA9E0070919C /* paper47@2x.png */,
+				12287AB21C62DA9E0070919C /* paper47@3x.png */,
+				12FA89EA1C62C21D009A3624 /* Assets.xcassets */,
+				12FA89EF1C62C21D009A3624 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		12FA89F71C62C2F9009A3624 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12FA89E31C62C21D009A3624 /* AppDelegate.swift */,
+				12FA89F81C62C310009A3624 /* eventlistTableViewController.swift */,
+				12287AB61C62DE230070919C /* detailTableViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +163,7 @@
 				TargetAttributes = {
 					12FA89DF1C62C21D009A3624 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HK6R36PLNR;
 					};
 				};
 			};
@@ -123,7 +191,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FA89EE1C62C21D009A3624 /* LaunchScreen.storyboard in Resources */,
+				12287AB31C62DA9E0070919C /* paper47.png in Resources */,
+				12FB5E2C1C630535009E3126 /* star61@2x.png in Resources */,
+				12287AAD1C62D7E80070919C /* calendar51.png in Resources */,
+				12287AAF1C62D7E80070919C /* calendar51@3x.png in Resources */,
+				12FB5E2B1C630535009E3126 /* star61.png in Resources */,
 				12FA89EB1C62C21D009A3624 /* Assets.xcassets in Resources */,
+				12287AB51C62DA9E0070919C /* paper47@3x.png in Resources */,
+				12FB5E2D1C630535009E3126 /* star61@3x.png in Resources */,
+				12287AAE1C62D7E80070919C /* calendar51@2x.png in Resources */,
+				12FB5E2F1C630A88009E3126 /* datebackdrop.png in Resources */,
+				12FB5E371C631931009E3126 /* launch.gif in Resources */,
+				12FB5E351C63182F009E3126 /* backdrop-gpurple.png in Resources */,
+				12287AB41C62DA9E0070919C /* paper47@2x.png in Resources */,
 				12FA89E91C62C21D009A3624 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12FA89E61C62C21D009A3624 /* ViewController.swift in Sources */,
+				12287AB71C62DE230070919C /* detailTableViewController.swift in Sources */,
+				12FA89F91C62C310009A3624 /* eventlistTableViewController.swift in Sources */,
 				12FA89E41C62C21D009A3624 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,10 +328,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Teacher Solutions Events/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.teachersolutions.Teacher-Solutions-Events";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +342,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Teacher Solutions Events/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "au.com.teachersolutions.Teacher-Solutions-Events";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +371,7 @@
 				12FA89F41C62C21D009A3624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
